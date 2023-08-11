@@ -1,0 +1,90 @@
+header{
+    background-color: darkcyan;
+    border: 2px solid black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    margin: 0;
+    
+    text-transform: capitalize;
+    text-align: center;
+
+    height: auto;
+    width: 99.7%;
+
+}
+header img{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+
+     
+    height: 80px;
+    width: 90px;
+}
+.sinopsis{
+    padding: 10px;
+    text-indent: 25px;
+    font-weight: bold;
+    height: 15vh;
+    width: 32%;
+    word-spacing: 2px;
+    font-size: 20px;
+    line-height: 25px;
+ 
+    margin: 180px;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+}
+.img{
+    margin: 300px 50%;
+    position: absolute;
+}
+body{
+    background-image: url("/img/_109347319_gettyimages-611195980.jpg");
+    padding: 0;
+    width: 100%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}  
+    
+footer{
+    position: absolute;
+    border: 1px solid black;
+    height: 10vh;
+    position: absolute;
+
+    width: 99.7%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+
+    background-color: darkcyan;
+}
+footer .parte-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+
+
+}
+.box img{
+    
+    margin: 5px;
+}
+.box p{
+    font-size: small;
+}
+.box h2{
+    font-size: medium;
+}

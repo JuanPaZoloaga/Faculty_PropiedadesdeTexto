@@ -1,0 +1,202 @@
+header{
+    background-color: darkcyan;
+    border: 2px solid black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    margin: 0;
+    
+    text-transform: capitalize;
+    text-align: center;
+
+    height: auto;
+    width: 99.7%;
+
+}
+header img{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+
+     
+    height: 80px;
+    width: 90px;
+
+}
+header h1{
+    margin: 0%;
+
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    height: auto;
+    width: auto;
+
+    padding: 0;
+
+
+}
+header h2{
+    margin: 0%;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    height: auto;
+    width: auto;
+    padding: 0;
+
+
+}
+body{
+    background-image: url("/img/_109347319_gettyimages-611195980.jpg");
+    padding: 0;
+    width: 100%;
+
+}
+
+.grids{
+    margin-top: 150px;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 50% auto;
+
+}
+.acertijos{
+    background-color: lightgrey;
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    width: 97%;
+
+    padding: 10px;
+    height: 5vh;
+    margin-top: 20px;
+    border: 2px solid black;
+    letter-spacing: 10px;
+}
+.acertijosexample{
+    background-color: lightyellow;
+
+    padding: 10px;
+    height: 60vh;
+    margin: 0px;
+    border: 2px solid black;
+
+
+}
+.acertijosexample p {
+    
+    line-height: 90px;
+    margin-left: 15%;
+    font-size: 40px;
+    font-family: sans-serif black;
+    text-align: center;
+
+    height: 40vh;
+    width: 70%;
+}
+.sopadeletras{
+    background-color: lightgrey;
+    text-decoration: underline;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
+
+    padding: 10px;
+    height: 5vh;
+    margin: 20px;
+    border: 2px solid black;   
+    letter-spacing: 10px;
+    width: 92%;
+}
+
+.sopaexample{
+    background-color: lightyellow;
+    padding: 10px;
+    height: 60vh;
+    width: 92%;
+    margin-left: 20px;
+    border: 2px solid black;
+
+    
+}
+.sopaexample p{
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 35px;
+    letter-spacing: 30px;
+
+    line-height: 25px;
+    margin-left: 15%;
+    font-size: 10px;
+    font-family: sans-serif black;
+    text-align: center;
+
+    height: 45vh;
+    width: 70%;
+}
+.sopaexample a{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+/*footer{
+    border: 1px solid black;
+    height: 10vh;
+    position: absolute;
+
+    width: 99.7%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+
+    background-color: darkcyan;  
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}  
+    
+footer{
+    position: absolute;
+    border: 1px solid black;
+    height: 10vh;
+    position: absolute;
+
+    width: 99.7%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+
+    background-color: darkcyan;
+}
+footer .parte-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+
+
+}
+.box img{
+    
+    margin: 5px;
+}
+.box p{
+    font-size: small;
+}
+.box h2{
+    font-size: medium;
+}
